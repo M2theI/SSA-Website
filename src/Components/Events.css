@@ -1,7 +1,14 @@
+/* 
+ * Events Component Styles
+ * Created by Mohamed - April 2024
+ * Matching our official branding colors
+ */
+
+/* Main container for the events page */
 .events-section {
   width: 100%;
   min-height: calc(100vh - 60px);
-  margin-top: 60px;
+  margin-top: 60px; /* Adjust if header height changes */
   padding: 3rem 1rem;
   background-color: #f8f9fa;
   opacity: 0;
@@ -9,11 +16,13 @@
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
+/* Visible class added after component mounts */
 .events-section.visible {
   opacity: 1;
   transform: translateY(0);
 }
 
+/* Header section with title and intro text */
 .events-header {
   text-align: center;
   max-width: 800px;
@@ -32,6 +41,7 @@
   line-height: 1.6;
 }
 
+/* Grid container for multiple events (only using one for now) */
 .events-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -45,6 +55,7 @@
   justify-content: center;
 }
 
+/* Event card styling */
 .event-card {
   background-color: white;
   border-radius: 10px;
@@ -58,13 +69,15 @@
   margin: 0 auto;
 }
 
+/* hover effect - feels a bit much but the team likes it */
 .event-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
+/* Custom poster design to match our Instagram template */
 .event-poster-wrapper {
-  background-color: #78a5c1;
+  background-color: #78a5c1; /* this bluish color matches our branding */
   padding: 2rem;
   position: relative;
   min-height: 500px;
@@ -83,6 +96,7 @@
   height: 100%;
 }
 
+/* Event header with date, time, location */
 .event-poster-header {
   display: flex;
   flex-direction: column;
@@ -98,6 +112,7 @@
   font-weight: 300;
 }
 
+/* Circle with activities list */
 .event-poster-graphics {
   display: flex;
   justify-content: center;
@@ -124,6 +139,7 @@
   font-style: italic;
 }
 
+/* Main event title */
 .event-poster-title {
   margin: 2rem 0;
 }
@@ -138,20 +154,22 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+/* "Join Us" text - positioned to match Instagram template */
 .event-poster-join {
-  font-family: cursive;
+  font-family: cursive; /* find a better font for this later */
   font-size: 2.5rem;
   margin: 1rem 0;
   position: absolute;
-  right: 15%;
+  right: 15%; 
   top: 65%;
 }
 
 .event-poster-join p {
   margin: 0;
-  transform: rotate(-5deg);
+  transform: rotate(-5deg); /* slight angle looks more natural */
 }
 
+/* Logo in corner */
 .event-poster-logo {
   position: absolute;
   bottom: 2rem;
@@ -165,6 +183,7 @@
   object-fit: cover;
 }
 
+/* Legacy poster styles - keeping for now in case we switch back */
 .full-event-poster {
   width: 100%;
   height: auto;
@@ -208,6 +227,7 @@
   font-size: 0.9rem;
 }
 
+/* Event details section below the poster */
 .event-details {
   padding: 1.5rem;
 }
@@ -241,6 +261,7 @@
   font-size: 1rem;
 }
 
+/* RSVP button - matches our branding colors */
 .event-rsvp-btn {
   background-color: #0066cc;
   color: white;
@@ -257,6 +278,7 @@
   background-color: #0052a3;
 }
 
+/* Responsive styles for smaller screens */
 @media (max-width: 768px) {
   .events-section {
     padding: 2rem 1rem;
