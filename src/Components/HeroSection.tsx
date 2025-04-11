@@ -5,6 +5,7 @@ import "./HeroSection.css";
 const HeroSection = () => {
   const [isVisible, setIsVisible] = useState(false);
   const navigate = useNavigate();
+  const basePath = process.env.VERCEL ? '' : '/SSA-Website';
 
   useEffect(() => {
     setIsVisible(true);
@@ -20,7 +21,7 @@ const HeroSection = () => {
         <h1 className="hero-title">Somali Student Association At Northeastern University</h1>
         <div className="hero-image">
           <img 
-            src="/vite-project/IMG_0567.jpg"
+            src={`${basePath}/IMG_0567.jpg`}
             alt="SSA at Northeastern"
             className="hero-img"
           />

@@ -7,8 +7,10 @@ import Footer from "./Components/Footer";
 import "./App.css";
 
 function App() {
+  const basename = process.env.VERCEL ? '/' : '/SSA-Website';
+  
   return (
-    <Router basename="/vite-project">
+    <Router basename={basename}>
       <div className="App">
         <Header />
         <Routes>
