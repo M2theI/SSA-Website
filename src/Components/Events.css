@@ -1,0 +1,145 @@
+.events-section {
+  width: 100%;
+  min-height: calc(100vh - 60px);
+  margin-top: 60px;
+  padding: 3rem 1rem;
+  background-color: #f8f9fa;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.events-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.events-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+}
+
+.events-header h1 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.events-intro {
+  color: #666;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.events-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.event-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.event-image {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.event-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.event-date-badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: #0066cc;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.event-details {
+  padding: 1.5rem;
+}
+
+.event-details h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #0066cc;
+}
+
+.event-meta {
+  margin-bottom: 1rem;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.event-meta p {
+  margin: 0.5rem 0;
+}
+
+.event-meta i {
+  width: 20px;
+  margin-right: 10px;
+  color: #0066cc;
+}
+
+.event-description {
+  color: #444;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.event-rsvp-btn {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.event-rsvp-btn:hover {
+  background-color: #0052a3;
+}
+
+@media (max-width: 768px) {
+  .events-section {
+    padding: 2rem 1rem;
+  }
+  
+  .events-header h1 {
+    font-size: 2rem;
+  }
+  
+  .events-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .event-card {
+    max-width: 100%;
+  }
+} 
