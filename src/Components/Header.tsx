@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom";
+import { getPublicPath } from "../utils/publicPath";
 import "./Header.css";
 
 const Header = () => {
-  const basePath = process.env.VERCEL ? '' : '/SSA-Website';
-  
   return (
     <header className="header">
       <div className="logo-container">
-        <img src={`${basePath}/IMG_0566.jpg`} alt="Somali Student Association Logo" className="logo" />
+        <img src={getPublicPath("IMG_0566.jpg")} alt="Somali Student Association Logo" className="logo" />
         <h2 className="logo-text">NEUSSA</h2>
       </div>
       <nav>
