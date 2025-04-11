@@ -66,7 +66,12 @@ SSA-Website/
 
 ## Deployment
 
-The website is deployed via GitHub Pages and can be accessed at [https://m2thei.github.io/SSA-Website/](https://m2thei.github.io/SSA-Website/).
+The website is deployed and can be accessed at:
+
+- Vercel: [https://ssa-website.vercel.app](https://ssa-website.vercel.app)
+- GitHub Pages: [https://m2thei.github.io/SSA-Website/](https://m2thei.github.io/SSA-Website/)
+
+Custom domain (coming soon): northeasternsomalistudentassocation.org
 
 ## Built With
 
@@ -75,7 +80,8 @@ The website is deployed via GitHub Pages and can be accessed at [https://m2thei.
 - [Vite](https://vitejs.dev/) - Build tool and development server
 - [React Router](https://reactrouter.com/) - For navigation
 - [Font Awesome](https://fontawesome.com/) - Icons
-- [GitHub Pages](https://pages.github.com/) - Hosting
+- [Vercel](https://vercel.com/) - Primary hosting platform
+- [GitHub Pages](https://pages.github.com/) - Secondary hosting
 
 ## Future Enhancements
 
