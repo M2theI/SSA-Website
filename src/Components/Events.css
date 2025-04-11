@@ -7,8 +7,8 @@
 /* Main container for the events page */
 .events-section {
   width: 100%;
-  min-height: calc(100vh - 60px);
-  margin-top: 60px; /* Adjust if header height changes */
+  min-height: calc(100vh - 50px);
+  margin-top: 50px;
   padding: 3rem 1rem;
   background-color: #f8f9fa;
   opacity: 0;
