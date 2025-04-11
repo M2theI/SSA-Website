@@ -28,11 +28,36 @@ const Events = () => {
       
       <div className="events-container event-poster-container">
         <div className="event-card poster-card">
-          <img 
-            src="https://i.ibb.co/JdtBNGN/semester-event.jpg" 
-            alt="End of The Semester Event" 
-            className="full-event-poster"
-          />
+          <div className="event-poster-wrapper">
+            <div className="event-poster-content">
+              <div className="event-poster-header">
+                <h2>Sunday, April 13</h2>
+                <h2>1 - 4 PM</h2>
+                <h2>Richardson Plaza</h2>
+              </div>
+              
+              <div className="event-poster-graphics">
+                <div className="event-poster-circle">
+                  <p>GAMES</p>
+                  <p>FOOD</p>
+                  <p>FUN</p>
+                </div>
+              </div>
+              
+              <div className="event-poster-title">
+                <h1>END OF THE SEMESTER</h1>
+              </div>
+              
+              <div className="event-poster-join">
+                <p>Join Us</p>
+              </div>
+              
+              <div className="event-poster-logo">
+                <img src={getPublicPath("IMG_0566.jpg")} alt="NEUSSA Logo" className="small-logo" />
+              </div>
+            </div>
+          </div>
+          
           <div className="event-details">
             <h3>{upcomingEvent.title}</h3>
             <div className="event-meta">
