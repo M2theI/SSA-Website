@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { getPublicPath } from "../utils/publicPath";
 import "./Events.css";
 
 // Actual event data
@@ -28,7 +29,7 @@ const Events = () => {
       <div className="events-container event-poster-container">
         <div className="event-card poster-card">
           <img 
-            src="https://images.squarespace-cdn.com/content/v1/6544a7e45f46c209fd66d5bb/cb48f254-c4ef-4f09-8eb4-913dbcd87fef/NeuSSA.jpg" 
+            src="https://i.ibb.co/JdtBNGN/semester-event.jpg" 
             alt="End of The Semester Event" 
             className="full-event-poster"
           />
