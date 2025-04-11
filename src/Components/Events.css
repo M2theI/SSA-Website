@@ -40,6 +40,11 @@
   gap: 2rem;
 }
 
+.event-poster-container {
+  display: flex;
+  justify-content: center;
+}
+
 .event-card {
   background-color: white;
   border-radius: 10px;
@@ -48,9 +53,22 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.poster-card {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 .event-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.full-event-poster {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 800px;
+  object-fit: contain;
 }
 
 .event-image {

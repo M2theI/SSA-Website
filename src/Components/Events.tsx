@@ -8,8 +8,7 @@ const upcomingEvent = {
   date: "Sunday, April 13",
   time: "1:00 PM - 4:00 PM",
   location: "Richardson Plaza",
-  description: "Join us to celebrate the end of the semester with games, food, and fun! All Northeastern students are welcome to come hang out with the Somali Student Association.",
-  image: "/end-of-semester.jpg"
+  description: "Join us to celebrate the end of the semester with games, food, and fun! All Northeastern students are welcome to come hang out with the Somali Student Association."
 };
 
 const Events = () => {
@@ -26,11 +25,13 @@ const Events = () => {
         <p className="events-intro">Join us at our upcoming events and be part of the Somali community at Northeastern.</p>
       </div>
       
-      <div className="events-container">
-        <div className="event-card">
-          <div className="event-image full-poster">
-            <img src={upcomingEvent.image} alt={upcomingEvent.title} className="event-poster" />
-          </div>
+      <div className="events-container event-poster-container">
+        <div className="event-card poster-card">
+          <img 
+            src="https://images.squarespace-cdn.com/content/v1/6544a7e45f46c209fd66d5bb/cb48f254-c4ef-4f09-8eb4-913dbcd87fef/NeuSSA.jpg" 
+            alt="End of The Semester Event" 
+            className="full-event-poster"
+          />
           <div className="event-details">
             <h3>{upcomingEvent.title}</h3>
             <div className="event-meta">
