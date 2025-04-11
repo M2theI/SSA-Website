@@ -59,6 +59,17 @@
   overflow: hidden;
 }
 
+.event-image.full-poster {
+  height: auto;
+  max-height: 600px;
+}
+
+.event-poster {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .event-image img {
   width: 100%;
   height: 100%;
