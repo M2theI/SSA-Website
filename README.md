@@ -93,7 +93,3 @@ Custom domain (coming soon): northeasternsomalistudentassocation.org
 ## About the Developer
 
 I'm a Computer Science student at Northeastern University with a passion for building clean, user-friendly web applications. This project allowed me to combine my technical skills with my commitment to community organizations on campus.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
