@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { getPublicPath } from "../utils/publicPath";
 import "./HeroSection.css";
 
 const HeroSection = () => {
@@ -21,7 +20,7 @@ const HeroSection = () => {
         <h1 className="hero-title">Somali Student Association At Northeastern University</h1>
         <div className="hero-image">
           <img 
-            src={getPublicPath("IMG_0567.jpg")}
+            src="/IMG_0567.jpg"
             alt="SSA at Northeastern"
             className="hero-img"
           />

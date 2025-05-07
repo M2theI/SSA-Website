@@ -6,11 +6,11 @@ import "./Events.css";
 // Data for our end-of-semester event! Update this after each event
 const upcomingEvent = {
   id: 1,
-  title: "End of The Semester",
-  date: "Sunday, April 13",
-  time: "1:00 PM - 4:00 PM",
-  location: "Richardson Plaza",
-  description: "Join us to celebrate the end of the semester with games, food, and fun! All Northeastern students are welcome to come hang out with the Somali Student Association."
+  title: "Next Event Coming Soon",
+  date: "To Be Determined",
+  time: "To Be Announced",
+  location: "To Be Announced",
+  description: "We're planning our next exciting event! Stay tuned for updates on our social media and website. Follow us to be the first to know when we announce the details."
 };
 
 // Mohamed - created this component on 4/10 for our upcoming event
@@ -39,28 +39,28 @@ const Events = () => {
             <div className="event-poster-content">
               {/* Event details header */}
               <div className="event-poster-header">
-                <h2>Sunday, April 13</h2>
-                <h2>1 - 4 PM</h2>
-                <h2>Richardson Plaza</h2>
+                <h2>Coming Soon</h2>
+                <h2>Stay Tuned</h2>
+                <h2>Follow Us</h2>
               </div>
               
               {/* Fun circle element from the design */}
               <div className="event-poster-graphics">
                 <div className="event-poster-circle">
-                  <p>GAMES</p>
-                  <p>FOOD</p>
-                  <p>FUN</p>
+                  <p>NEW</p>
+                  <p>EVENT</p>
+                  <p>SOON</p>
                 </div>
               </div>
               
               {/* Main event title */}
               <div className="event-poster-title">
-                <h1>END OF THE SEMESTER</h1>
+                <h1>TO BE ANNOUNCED</h1>
               </div>
               
               {/* "Join Us" text - positioned absolutely in CSS */}
               <div className="event-poster-join">
-                <p>Join Us</p>
+                <p>Stay Updated</p>
               </div>
               
               {/* Our logo in the corner */}
@@ -79,7 +79,7 @@ const Events = () => {
               <p><i className="fas fa-map-marker-alt"></i> {upcomingEvent.location}</p>
             </div>
             <p className="event-description">{upcomingEvent.description}</p>
-            <button className="event-rsvp-btn">RSVP Now</button>
+            <button className="event-rsvp-btn">Follow for Updates</button>
           </div>
         </div>
       </div>
