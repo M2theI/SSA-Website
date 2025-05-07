@@ -31,18 +31,14 @@ cd SSA-Website
 2. Install dependencies
 ```bash
 npm install
-# or
-yarn
 ```
 
 3. Start the development server
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-4. Open [http://localhost:5173](http://localhost:5173) to view it in the browser
+4. Open [http://localhost:5175/SSA-Website/](http://localhost:5175/SSA-Website/) to view it in the browser
 
 ## Project Structure
 
@@ -67,11 +63,7 @@ SSA-Website/
 ## Deployment
 
 The website is deployed and can be accessed at:
-
-- Vercel: [https://ssa-website.vercel.app](https://ssa-website.vercel.app)
-- GitHub Pages: [https://m2thei.github.io/SSA-Website/](https://m2thei.github.io/SSA-Website/)
-
-Custom domain (coming soon): northeasternsomalistudentassocation.org
+[https://m2thei.github.io/SSA-Website/](https://m2thei.github.io/SSA-Website/)
 
 ## Built With
 
@@ -80,8 +72,7 @@ Custom domain (coming soon): northeasternsomalistudentassocation.org
 - [Vite](https://vitejs.dev/) - Build tool and development server
 - [React Router](https://reactrouter.com/) - For navigation
 - [Font Awesome](https://fontawesome.com/) - Icons
-- [Vercel](https://vercel.com/) - Primary hosting platform
-- [GitHub Pages](https://pages.github.com/) - Secondary hosting
+- [GitHub Pages](https://pages.github.com/) - Hosting platform
 
 ## Future Enhancements
 

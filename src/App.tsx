@@ -7,6 +7,7 @@ import Events from "./Components/Events";
 import Footer from "./Components/Footer";
 import "./App.css";
 
+// Main App component with routing configuration
 function App() {
   return (
     <Router>
