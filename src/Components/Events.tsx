@@ -65,7 +65,7 @@ const Events = () => {
               
               {/* Our logo in the corner */}
               <div className="event-poster-logo">
-                <img src={getPublicPath("IMG_0566.jpg")} alt="NEUSSA Logo" className="small-logo" />
+                <img src="/SSA-Website/IMG_0566.jpg" alt="NEUSSA Logo" className="small-logo" />
               </div>
             </div>
           </div>

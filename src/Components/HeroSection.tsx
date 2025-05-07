@@ -20,7 +20,7 @@ const HeroSection = () => {
         <h1 className="hero-title">Somali Student Association At Northeastern University</h1>
         <div className="hero-image">
           <img 
-            src="/IMG_0567.jpg"
+            src="/SSA-Website/IMG_0567.jpg"
             alt="SSA at Northeastern"
             className="hero-img"
           />
