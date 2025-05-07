@@ -93,3 +93,24 @@ Custom domain (coming soon): northeasternsomalistudentassocation.org
 ## About the Developer
 
 I'm a Computer Science student at Northeastern University with a passion for building clean, user-friendly web applications. This project allowed me to combine my technical skills with my commitment to community organizations on campus.
+
+## Live Site
+Visit our website at: [https://m2thei.github.io/SSA-Website/](https://m2thei.github.io/SSA-Website/)
+
+## Development
+To run the project locally:
+```bash
+npm install
+npm run dev
+```
+
+The site will be available at `http://localhost:5175/SSA-Website/`
+
+## Deployment
+This site is automatically deployed to GitHub Pages when changes are pushed to the main branch.
+
+## Technologies Used
+- React
+- TypeScript
+- Vite
+- GitHub Pages
