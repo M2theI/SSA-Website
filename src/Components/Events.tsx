@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { getPublicPath } from "../utils/publicPath";
 import "./Events.css";
 
 // TODO: Eventually replace this with data from our Google Calendar API
