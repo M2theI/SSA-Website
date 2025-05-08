@@ -1,28 +1,25 @@
-import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import "./HeroSection.css";
+import heroImg from '../assets/IMG_0567.jpg';
 
 const HeroSection = () => {
-  const [isVisible, setIsVisible] = useState(false);
   const navigate = useNavigate();
-
-  useEffect(() => {
-    setIsVisible(true);
-  }, []);
 
   const handleLearnMore = () => {
     navigate('/about');
   };
 
   return (
-    <div className={`hero-section ${isVisible ? 'visible' : ''}`}>
+    <div className="hero-section">
       <div className="hero-content">
         <h1 className="hero-title">Somali Student Association At Northeastern University</h1>
         <div className="hero-image">
           <img 
-            src="/SSA-Website/IMG_0567.jpg"
+            src={heroImg}
             alt="SSA at Northeastern"
             className="hero-img"
+            loading="eager"
+            decoding="sync"
           />
         </div>
         <div className="hero-cta">
