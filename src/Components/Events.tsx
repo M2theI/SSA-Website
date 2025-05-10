@@ -3,7 +3,6 @@ import "./Events.css";
 import logoImg from '../assets/IMG_0566.jpg';
 
 // TODO: Eventually replace this with data from our Google Calendar API
-// Data for our end-of-semester event! Update this after each event
 const upcomingEvent = {
   id: 1,
   title: "Next Event Coming Soon",
