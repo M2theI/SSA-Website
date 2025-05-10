@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import "./Events.css";
+import logoImg from '../assets/IMG_0566.jpg';
 
 // TODO: Eventually replace this with data from our Google Calendar API
 // Data for our end-of-semester event! Update this after each event
@@ -19,7 +20,7 @@ const Events = () => {
 
   // Fade in the content when component mounts
   useEffect(() => {
-    // Maybe add a small delay later? Looks fine for now
+    // Maybe add a small delay later
     setIsVisible(true);
   }, []);
 
@@ -64,7 +65,7 @@ const Events = () => {
               
               {/* Our logo in the corner */}
               <div className="event-poster-logo">
-                <img src="/SSA-Website/IMG_0566.jpg" alt="NEUSSA Logo" className="small-logo" />
+                <img src={logoImg} alt="NEUSSA Logo" className="small-logo" />
               </div>
             </div>
           </div>
